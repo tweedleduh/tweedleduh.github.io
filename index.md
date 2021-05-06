@@ -1,5 +1,6 @@
-## Welcome to GitHub Pages
+## Joshua M Gierlich
 
+During my educational career at SNHU I have taken numerous courses. <br/>
 You can use the [editor on GitHub](https://github.com/tweedleduh/tweedleduh.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
