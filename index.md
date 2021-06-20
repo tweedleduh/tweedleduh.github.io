@@ -25,12 +25,16 @@ Once I had started this project I first set out to change the color scheme and d
 Here's what my application looked like once I was finished with the design layout:
 Login Screen: 
 ![Screen Shot 2021-06-20 at 11 37 15 AM](https://user-images.githubusercontent.com/37714835/122681860-f84fc900-d1bb-11eb-9b1e-a67e529261e3.png)
+
 Charts Fragment: 
 <img width="329" alt="Screen Shot 2021-06-20 at 11 35 48 AM" src="https://user-images.githubusercontent.com/37714835/122681870-06054e80-d1bc-11eb-8c50-e8dbabddaf22.png">
+
 Enter Weight: 
 <img width="327" alt="Screen Shot 2021-06-20 at 11 35 59 AM" src="https://user-images.githubusercontent.com/37714835/122681880-0ef62000-d1bc-11eb-9d08-3272faf96125.png">
+
 Weight Log: 
 <img width="327" alt="Screen Shot 2021-06-20 at 11 36 09 AM" src="https://user-images.githubusercontent.com/37714835/122681891-1caba580-d1bc-11eb-8d5e-a9755fc6a57b.png">
+
 Settings:
 <img width="333" alt="Screen Shot 2021-06-20 at 11 36 18 AM" src="https://user-images.githubusercontent.com/37714835/122681901-246b4a00-d1bc-11eb-9917-1155591bcffa.png">
 <br/>
