@@ -22,27 +22,31 @@ As you can see, a login was the same as creating an account, and in the backgrou
 
 Once I had started this project I first set out to change the color scheme and design layout I changed the color scheme from a bright layout, using googles preset color scheme to a darker layout for a sleeker look. I wanted the user to be able to visually track their progress, make predictions, and use statistics to map their progress. To do this I needed to add new fragments and code to support the functionality for each fragment. I also wanted some new features to support to ensure a much easier to use application so I added an SMS feature to log in as well as an email so that the user could choose how they would like to log in. These few changes made it easier for me to authenticate each user and establish metrics later on to help me determine what method people liked to use more for each application. Much of the changes that I did end up making for receiving user input was created to eliminate bad user input. For instance, in my initial application the person could enter a date however they saw fit, whereas with m new application the user had to choose from an actual calendar which then formatted the date for the person. All in all I believe that I created a much more enjoyable end user experience, while aslo adding plenty of new functionaloity for additional development later on as well.   
 
-Here's what my application looked like once I was finished with the design layout:
+Here's what my application looked like once I was finished with the design layout:<br/>
 
 Login Screen: 
 
 
 ![Screen Shot 2021-06-20 at 11 37 15 AM](https://user-images.githubusercontent.com/37714835/122681860-f84fc900-d1bb-11eb-9b1e-a67e529261e3.png)
+<br/>
 
 Charts Fragment: 
 
 
 <img width="329" alt="Screen Shot 2021-06-20 at 11 35 48 AM" src="https://user-images.githubusercontent.com/37714835/122681870-06054e80-d1bc-11eb-8c50-e8dbabddaf22.png">
+<br/>
 
 Enter Weight: 
 
 
 <img width="327" alt="Screen Shot 2021-06-20 at 11 35 59 AM" src="https://user-images.githubusercontent.com/37714835/122681880-0ef62000-d1bc-11eb-9d08-3272faf96125.png">
+<br/>
 
 Weight Log: 
 
 
 <img width="327" alt="Screen Shot 2021-06-20 at 11 36 09 AM" src="https://user-images.githubusercontent.com/37714835/122681891-1caba580-d1bc-11eb-8d5e-a9755fc6a57b.png">
+<br/>
 
 Settings:
 
