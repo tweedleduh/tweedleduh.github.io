@@ -82,40 +82,27 @@ Below are examples of scripts I used utilizing the API, the API interface, and h
 
 These files in particular required a large amount of integration and forethought. While some of the programs I initially had bits and pieces of, because of the added chart, statistics, login options, and API integration resulted in me having to write most of the code from scratch. This should show that not only do I recognize possible security threats, but I can also securely connect to and utilize third party software to cater to the needs of not only the end users, but also to potential business partners. I built each script modularly, so that it can be utilized as often as needed. The included code shows how I implemented the data interface, and how I could easily build out additional features to cater to the future needs of the application and potential business partners, should there be any in the future <br/>
 
+### Capstone Artifact #3 - Databases: <br/>
 
+Finally, we were asked to improve upon databases that had already been built. In my case, as I mentioned before, I had started out with three local databases, and ultimately ended up with one main database, with one data warehouse which houses all the users whom have access to my application. 
 
-You can use the [editor on GitHub](https://github.com/tweedleduh/tweedleduh.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Instead of paring down the data, I incorporated all of the user data into one table as there are only a few actions any one user can take. Since I added the Firebase application, it comes with its own set of tables, and is populated every time an event takes place on the application. Each event is then logged and then sent to the Firebase application for my own tracking. Meanwhile, the information entered by the user is given their own ID and every time a user enters information, is then stored in one central table. This makes tracking and comparing information easy as all information is centralized within the Firebase applciation. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+As I mentioned before, my initial application would query the given databases to see if the user existed, but if the user didn't exist, would simply create another user account regardless of the credentials entered or the format that the credentials were entered in. This left my application very vulnerable to other types of inputs which could be potentially hazardous to my application or to an end user.
 
-### Markdown
+To remedy this, I limited the types of input that the user could actually enter, but broadened the methods in which the user could potentially log in. <br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Example of Login Screen:<br/>
+![Screen Shot 2021-06-20 at 11 37 15 AM](https://user-images.githubusercontent.com/37714835/122700460-f106da80-d210-11eb-9b31-adb1a9b6395c.png)<br/>
 
-```markdown
-Syntax highlighted code block
+Example of user being rejected: <br/>
+<img width="387" alt="Screen Shot 2021-06-20 at 9 29 11 PM" src="https://user-images.githubusercontent.com/37714835/122700550-1eec1f00-d211-11eb-99b6-5a1f0ebe7a87.png"> <br/>
 
-# Header 1
-## Header 2
-### Header 3
+Below is an example of the code for my initial application, and as you can see, in every instance of a user entering credentials the user would create an account or would access an existing account assuming the credentials existed in the database. In addition, there are no checks or validation on the users input to ensure that the input is acceptable to query the database with to begin with. <br/>
 
-- Bulleted
-- List
+Example of Main Activity utilizing login for Initial Application:<br/>
 
-1. Numbered
-2. List
+[Ver1MainActivity](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/Ver1MainActivity.java)<br/>
 
-**Bold** and _Italic_ and `Code` text
+By making the improvements that I did, the users credentials were always verified, and limited to the desired input. I even limited the user to only being able to select from a calendar when committing a new weight to the log, just to limit the types of input allowed by the user. 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tweedleduh/tweedleduh.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
