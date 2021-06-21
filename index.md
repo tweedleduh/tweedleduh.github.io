@@ -69,6 +69,18 @@ Ultimately I ended up with one table as much of the metadata that I was interest
 What I found really challenging at first was figuring out how many databases to create. At one point I had mapped out five databases, and found myself configuring the program to linearly search through each one on the users ID. It wasn't until much later after some testing that I found out that Firebase supported the reporting I was looking for all on its own. From there the next challenge was getting the auth credentials configured correctly to work every time, and then to populate the correct fields. Once I was able to figure that out, the next challenge was simply creating modules to call so that I could easily make calculations which I defined in a "Data Definitions" Java file. I relied heavily on these definitions within the Chart Java files, and "Statistics" Java files whereas before this I was going to make specific SQL commands to calculate the necessary fields, and then reference those fields as necessary. I tinkered with this approach for a while but I didn't like the idea of having to consult different scripts outside of my application to see if there was issue. <br/>
 
 Below are examples of scripts I used utilizing the API, the API interface, and how I implemented some of the more complicated features of my application:
+[API Client](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/APIClient.java)
+[AccountFragment](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/AccountFragment.java)
+[Base_Activity](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/Base_Activity.java)
+[ChartFullScreen](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/ChartFullScreen.java)
+[ChartStatistics](https://github.com/tweedleduh/tweedleduh.github.io/blob/main/ChartStatistics.java)
+[Link](url)
+[Link](url)
+[Link](url)
+[Link](url)
+[Link](url)
+[Link](url)
+[Link](url)
 
 
 
