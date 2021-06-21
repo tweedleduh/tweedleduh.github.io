@@ -107,3 +107,17 @@ Example of Main Activity utilizing login for Initial Application:<br/>
 
 By making the improvements that I did, the users credentials were always verified, and limited to the desired input. I even limited the user to only being able to select from a calendar when committing a new weight to the log, just to limit the types of input allowed by the user. 
 
+Below are before and after screenshots of the data bases I started with and then the databases that I ended with, and a final screenshot of the firebase application which will ultimately be fed the information as users start using the application. <br/>
+
+Initial Database Examples: <br/>
+![Screen Shot 2021-06-20 at 10 03 11 PM](https://user-images.githubusercontent.com/37714835/122701666-5b207f00-d213-11eb-837f-0309321a34dc.png)<br/>
+
+Final Application Database Examples:<br/>
+![Screen Shot 2021-06-20 at 10 04 18 PM](https://user-images.githubusercontent.com/37714835/122701744-84d9a600-d213-11eb-91ce-634512e54770.png)<br/>
+
+Firebase Application: (Note: This is populated off of realtime data, and as I am currently the default user it will show no realtime activity) <br/>
+![Screen Shot 2021-06-20 at 9 42 55 PM](https://user-images.githubusercontent.com/37714835/122701786-9a4ed000-d213-11eb-86a8-b83784e9bbd3.png)<br/>
+
+The databases were ultimately the key to the entire program. Once I was able to figure out where and how I would store the information, it was just a simple matter of figuring out how to access the information and call it in the appropriate places. 
+
+
