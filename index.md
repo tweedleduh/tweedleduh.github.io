@@ -96,7 +96,8 @@ Example of Login Screen:<br/>
 ![Screen Shot 2021-06-20 at 11 37 15 AM](https://user-images.githubusercontent.com/37714835/122700460-f106da80-d210-11eb-9b31-adb1a9b6395c.png)<br/>
 
 Example of user being rejected: <br/>
-<img width="387" alt="Screen Shot 2021-06-20 at 9 29 11 PM" src="https://user-images.githubusercontent.com/37714835/122700550-1eec1f00-d211-11eb-99b6-5a1f0ebe7a87.png"> <br/>
+<img width="393" alt="Screen Shot 2021-06-20 at 9 25 38 PM" src="https://user-images.githubusercontent.com/37714835/122701351-a8502100-d212-11eb-8ecc-3c5408e5edb0.png">
+ <br/>
 
 Below is an example of the code for my initial application, and as you can see, in every instance of a user entering credentials the user would create an account or would access an existing account assuming the credentials existed in the database. In addition, there are no checks or validation on the users input to ensure that the input is acceptable to query the database with to begin with. <br/>
 
